@@ -42,10 +42,10 @@ jobs:
         dotnet-version: 8.0.x
     - name: Set Version
       run: |
-        $MAJOR=1
-        $MINOR=0
-        $DAY=& Get-Date -UFormat "%y%j"
-        $VERSION="$MAJOR.$MINOR.$DAY.${{ github.run_number }}"
+        MAJOR=1
+        MINOR=0
+        DAY=& Get-Date -UFormat "%y%j"
+        VERSION="$MAJOR.$MINOR.$DAY.${{ github.run_number }}"
         echo "VERSION=$VERSION" >> $GITHUB_ENV
     - name: Restore dependencies
       run: dotnet restore
