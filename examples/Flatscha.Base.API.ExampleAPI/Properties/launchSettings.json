@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Flatscha.Base.API.ExampleAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52494;http://localhost:52495"
+    }
+  }
+}

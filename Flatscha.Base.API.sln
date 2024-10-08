@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA8B19D3-6690-414C-9E2C-E7D26B1946A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EC5AAF2F-1618-46D0-92BC-10F046A5BF46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API", "src\Flatscha.Base.API\Flatscha.Base.API.csproj", "{02D7B05B-7A35-497B-9151-FB24F33644F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API.Contracts", "src\Flatscha.Base.API.Contracts\Flatscha.Base.API.Contracts.csproj", "{220567A6-24FB-4A29-A993-DE988D26C736}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API.Client", "src\Flatscha.Base.API.Client\Flatscha.Base.API.Client.csproj", "{9BEBC3CE-61E7-413B-A077-146F4E389A36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API.Test", "test\Flatscha.Base.API.Test\Flatscha.Base.API.Test.csproj", "{462D4B6E-DAF9-40C9-A08C-49188AA81DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{FEDB48F2-4E51-4B7D-BA2D-889C2BFF36DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API.ExampleAPI", "examples\Flatscha.Base.API.ExampleAPI\Flatscha.Base.API.ExampleAPI.csproj", "{3DF55551-0E29-4825-9235-CA1B24832E72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API.ExampleAPI.Tests", "examples\Flatscha.Base.API.ExampleAPI.Tests\Flatscha.Base.API.ExampleAPI.Tests.csproj", "{408E41A5-A6D5-4B88-92B6-118F1A34C6D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatscha.Base.API.ExampleAPI.Client", "examples\Flatscha.Base.API.ExampleAPI.Client\Flatscha.Base.API.ExampleAPI.Client.csproj", "{C8BF8D74-F404-41BF-8160-FC3F4B420F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flatscha.Base.API.ExampleAPI.Contracts", "examples\Flatscha.Base.API.ExampleAPI.Contracts\Flatscha.Base.API.ExampleAPI.Contracts.csproj", "{2F2628F7-EE4B-4029-8C84-D1B1DD0D8B9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02D7B05B-7A35-497B-9151-FB24F33644F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D7B05B-7A35-497B-9151-FB24F33644F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D7B05B-7A35-497B-9151-FB24F33644F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D7B05B-7A35-497B-9151-FB24F33644F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220567A6-24FB-4A29-A993-DE988D26C736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220567A6-24FB-4A29-A993-DE988D26C736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220567A6-24FB-4A29-A993-DE988D26C736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220567A6-24FB-4A29-A993-DE988D26C736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEBC3CE-61E7-413B-A077-146F4E389A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEBC3CE-61E7-413B-A077-146F4E389A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEBC3CE-61E7-413B-A077-146F4E389A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEBC3CE-61E7-413B-A077-146F4E389A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462D4B6E-DAF9-40C9-A08C-49188AA81DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462D4B6E-DAF9-40C9-A08C-49188AA81DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462D4B6E-DAF9-40C9-A08C-49188AA81DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462D4B6E-DAF9-40C9-A08C-49188AA81DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF55551-0E29-4825-9235-CA1B24832E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF55551-0E29-4825-9235-CA1B24832E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF55551-0E29-4825-9235-CA1B24832E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF55551-0E29-4825-9235-CA1B24832E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408E41A5-A6D5-4B88-92B6-118F1A34C6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408E41A5-A6D5-4B88-92B6-118F1A34C6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408E41A5-A6D5-4B88-92B6-118F1A34C6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408E41A5-A6D5-4B88-92B6-118F1A34C6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BF8D74-F404-41BF-8160-FC3F4B420F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BF8D74-F404-41BF-8160-FC3F4B420F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BF8D74-F404-41BF-8160-FC3F4B420F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BF8D74-F404-41BF-8160-FC3F4B420F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2628F7-EE4B-4029-8C84-D1B1DD0D8B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2628F7-EE4B-4029-8C84-D1B1DD0D8B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2628F7-EE4B-4029-8C84-D1B1DD0D8B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2628F7-EE4B-4029-8C84-D1B1DD0D8B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02D7B05B-7A35-497B-9151-FB24F33644F6} = {AA8B19D3-6690-414C-9E2C-E7D26B1946A5}
+		{220567A6-24FB-4A29-A993-DE988D26C736} = {AA8B19D3-6690-414C-9E2C-E7D26B1946A5}
+		{9BEBC3CE-61E7-413B-A077-146F4E389A36} = {AA8B19D3-6690-414C-9E2C-E7D26B1946A5}
+		{462D4B6E-DAF9-40C9-A08C-49188AA81DC4} = {EC5AAF2F-1618-46D0-92BC-10F046A5BF46}
+		{3DF55551-0E29-4825-9235-CA1B24832E72} = {FEDB48F2-4E51-4B7D-BA2D-889C2BFF36DC}
+		{408E41A5-A6D5-4B88-92B6-118F1A34C6D0} = {FEDB48F2-4E51-4B7D-BA2D-889C2BFF36DC}
+		{C8BF8D74-F404-41BF-8160-FC3F4B420F5D} = {FEDB48F2-4E51-4B7D-BA2D-889C2BFF36DC}
+		{2F2628F7-EE4B-4029-8C84-D1B1DD0D8B9C} = {FEDB48F2-4E51-4B7D-BA2D-889C2BFF36DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6384D83B-DF79-4881-85E6-BD2C746BCD1B}
+	EndGlobalSection
+EndGlobal
