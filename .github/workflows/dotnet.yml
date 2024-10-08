@@ -18,11 +18,10 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --configuration Release --no-restore     
+      run: dotnet build --no-restore     
       
   Test:
     runs-on: ubuntu-latest
-    needs: [ Build ]
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
@@ -51,7 +50,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Nuget Pack
-      run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --property:PackageOutputPath=../../
+      run: dotnet pack --configuration Release /p:Version=${VERSION} --property:PackageOutputPath=../../
     - name: Nuget Push
       run: |
         dotnet nuget push Flatscha.Base.API.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate
