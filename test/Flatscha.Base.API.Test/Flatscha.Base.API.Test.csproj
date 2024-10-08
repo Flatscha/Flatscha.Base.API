@@ -6,6 +6,23 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<PropertyGroup>
+		<IsPackable>true</IsPackable>
+		<Authors>Flatscha</Authors>
+		<Owners>Flatscha</Owners>
+		<RepositoryUrl>https://github.com/Flatscha/Flatscha.Base.API.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/Flatscha/Flatscha.Base.API.git</PackageProjectUrl>
+		<Description>UnitTests for Flatscha.Base.API to check if all endpoint are covered in API, Client and Contract Project</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+	
 	<ItemGroup>
 		<PackageReference Include="AutoFixture" Version="4.18.1" />
 		<PackageReference Include="coverlet.collector" Version="6.0.2">

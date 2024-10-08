@@ -3,6 +3,10 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
+	
+	<PropertyGroup>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="NLog.Web.AspNetCore" Version="5.3.14" />

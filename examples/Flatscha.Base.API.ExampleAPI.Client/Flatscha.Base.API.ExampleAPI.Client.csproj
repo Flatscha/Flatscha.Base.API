@@ -6,6 +6,10 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
+	
+	<PropertyGroup>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\src\Flatscha.Base.API.Client\Flatscha.Base.API.Client.csproj" />
