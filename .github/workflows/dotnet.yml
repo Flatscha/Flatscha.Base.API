@@ -44,7 +44,7 @@ jobs:
       run: |
         MAJOR=1
         MINOR=0
-        DAY=$(date -f "%y%j")
+        DAY=$(date +%y%j)
         VERSION="$MAJOR.$MINOR.$DAY.${{ github.run_number }}"
         echo "VERSION=$VERSION" >> $GITHUB_ENV
     - name: Restore dependencies
